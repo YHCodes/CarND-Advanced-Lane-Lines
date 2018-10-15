@@ -135,4 +135,10 @@ Here's a [link to my video result](./project_video_output.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+At first, I think this project would be very hard for me, so I took many times to watch tutorial video and materials, but after my tried, I learned a lot.
+
+It is hard for me to tuned the best parameters for binary thresh. 
+
+So I tried again and again.
+
+I think my pipeline would likely fail in the dark background or sharp turn of the road, so it would be helpful to combined multi color channel and graident threshold in order to get a better result.
